@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    background-color: antiquewhite !important;
+    background-image: url("../../codeup-web-exercises/img/footer_lodyas.png");
+}
+h3 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+#leaderboard {
+    top: 14em;
+    left: 8em;
+    border-radius: 10px;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-image: url("../../codeup-web-exercises/img/crossword.png");
+    opacity: .7;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 3px;
+    opacity: .5;
+    box-shadow: inset 0 0 20px #000000;
+}
+.loserClass {
+    width: 300px;
+    height: 425px;
+    margin: auto;
+    background-image: url("../../codeup-web-exercises/img/loser.jpg");
+}
+.ned {
+
+}
+#round {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 8em;
+    font-family: 'Press Start 2P', cursive;
+    color: darkred;
+}
+#header {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: darkred;
+}
+.Aligner {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.active {
+    opacity: 1;
+}
+#game {
+    position: relative;
+    top: 1em;
+}
+#red {
+    background-color: red;
+    border-radius: 10px 10px 70px 10px;
+}
+#blue {
+    background-color: blue;
+    border-radius: 10px 10px 10px 70px;
+}
+#green {
+    background-color: green;
+    border-radius: 10px 70px 10px 10px;
+}
+#purple {
+    background-color: purple;
+    border-radius: 70px 10px 10px 10px;
+}
+#new-game {
+    width: 100px;
+    height: 50px;
+    margin-left: 1em;
+    border-radius: 5px;
+}
+.addGray {
+    background-image: gray !important;
+}
+table {
+    /*margin-left: 3em;*/
+}
+td {
+    border: 15px solid transparent;
+}
+select {
+    width: 85px;
+}
+#first {
+    margin-bottom: 2em;
+}

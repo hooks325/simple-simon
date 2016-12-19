@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Simon</title>
+    <script src="js/jquery-2.js"></script>
+    <link rel="stylesheet" href="css/simple-simon.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <h1 id="header">Simple Simon</h1>
+
+        <div id="loser"></div>
+        <div id="leaderboard">
+            <div>
+                <h3>Leaderboard</h3>
+            </div>
+            <table>
+                <tr id="first">
+                    <td>1.</td>
+                    <td id="first-name"></td>
+                    <td id="first-score"></td>
+                </tr>
+                <tr id="second">
+                    <td>2.</td>
+                    <td id="second-name"></td>
+                    <td id="second-score"></td>
+                </tr>
+                <tr id="third">
+                    <td>3.</td>
+                    <td id="third-name"></td>
+                    <td id="third-score"></td>
+                </tr>
+                <tr id="fourth">
+                    <td>4.</td>
+                    <td id="fourth-name"></td>
+                    <td id="fourth-score"></td>
+                </tr>
+                <tr id="fifth">
+                    <td>5.</td>
+                    <td id="fifth-name"></td>
+                    <td id="fifthe-score"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="round"><h2> </h2></div>
+        <div id="game">
+            <div class="Aligner">
+                <div class="square Aligner" id="red"></div>
+                <div class="square Aligner" id="blue"></div>
+            </div>
+            <div class="Aligner">
+                <div class="square Aligner" id="green"></div>
+                <div class="square Aligner" id="purple"></div>
+            </div>
+            <br>
+            <div class="Aligner">
+                <select name="mode" id="mode">
+                    <option value="normal">Normal</option>
+                    <option value="advance">Advance</option>
+                </select>
+                <button id="new-game">New Game</button>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="js/simple-simon.js"></script>
+</body>
+</html>
